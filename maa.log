@@ -1,0 +1,910 @@
+[2025-01-31 12:38:25.918][INF][Px14600][Tx16498][Parser.cpp][L56][MaaNS::ProjectInterfaceNS::Parser::parse_interface] MFAWPF Version: [mfa.version=v1.2.4.3] Interface Version: [data.version=v0.7.6] [2025-01-31 12:38:25.978][DBG][Px19160][Tx5006][Logger] ----------------------------- 
+[2025-01-31 12:38:25.978][DBG][Px19160][Tx5006][Logger] MAA Process Start 
+[2025-01-31 12:38:25.978][DBG][Px19160][Tx5006][Logger] Version v3.0.1 
+[2025-01-31 12:38:25.978][DBG][Px19160][Tx5006][Logger] Built at Jan 20 2025 10:11:44 
+[2025-01-31 12:38:25.978][DBG][Px19160][Tx5006][Logger] Windows x64 
+[2025-01-31 12:38:25.978][DBG][Px19160][Tx5006][Logger] Working D:/Software/MAA/mea 
+[2025-01-31 12:38:25.978][DBG][Px19160][Tx5006][Logger] Logging D:/Software/MAA/mea/debug/maa.log 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][Logger] ----------------------------- 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L33][MaaNS::GlobalOptionMgr::set_log_dir] | leave, 1ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 1ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 1ms 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=2] [value=00007FFDFCBEE059] [val_size=1] | enter 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=2] [value=00007FFDFCBEE059] [val_size=1] | enter 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionMgr.cpp][L47][MaaNS::GlobalOptionMgr::set_save_draw] | enter 
+[2025-01-31 12:38:25.980][INF][Px19160][Tx5006][GlobalOptionMgr.cpp][L56][MaaNS::GlobalOptionMgr::set_save_draw] Set save draw [save_draw_=false] 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L47][MaaNS::GlobalOptionMgr::set_save_draw] | leave, 0ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=3] [value=00007FFDFCBEE05A] [val_size=1] | enter 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=3] [value=00007FFDFCBEE05A] [val_size=1] | enter 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionMgr.cpp][L79][MaaNS::GlobalOptionMgr::set_recording] | enter 
+[2025-01-31 12:38:25.980][INF][Px19160][Tx5006][GlobalOptionMgr.cpp][L88][MaaNS::GlobalOptionMgr::set_recording] Set recording [recording_=false] 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L79][MaaNS::GlobalOptionMgr::set_recording] | leave, 0ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=4] [value=00007FFDFCBEE05C] [val_size=4] | enter 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=4] [value=00007FFDFCBEE05C] [val_size=4] | enter 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionMgr.cpp][L95][MaaNS::GlobalOptionMgr::set_stdout_level] | enter 
+[2025-01-31 12:38:25.980][INF][Px19160][Tx5006][GlobalOptionMgr.cpp][L104][MaaNS::GlobalOptionMgr::set_stdout_level] Set log stdout level [level=2] 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L95][MaaNS::GlobalOptionMgr::set_stdout_level] | leave, 0ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=5] [value=00007FFDFCBEE060] [val_size=1] | enter 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=5] [value=00007FFDFCBEE060] [val_size=1] | enter 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionMgr.cpp][L63][MaaNS::GlobalOptionMgr::set_show_hit_draw] | enter 
+[2025-01-31 12:38:25.980][INF][Px19160][Tx5006][GlobalOptionMgr.cpp][L72][MaaNS::GlobalOptionMgr::set_show_hit_draw] Set show_hit_draw [show_hit_draw_=false] 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L63][MaaNS::GlobalOptionMgr::set_show_hit_draw] | leave, 0ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-01-31 12:38:25.980][DBG][Px19160][Tx5006][GlobalOptionConfig.cpp][L83][MaaNS::ToolkitNS::GlobalOptionConfig::apply_option] [bret=true] 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionConfig.cpp][L67][MaaNS::ToolkitNS::GlobalOptionConfig::apply_option] | leave, 2ms 
+[2025-01-31 12:38:25.980][TRC][Px19160][Tx5006][GlobalOptionConfig.cpp][L17][MaaNS::ToolkitNS::GlobalOptionConfig::init] | leave, 2ms 
+[2025-01-31 12:38:54.658][DBG][Px19160][Tx26039][MaaResource.cpp][L12][MaaResourceCreate] [notify=00007FFD76603F24] [notify_trans_arg=0000000000000000] | enter 
+[2025-01-31 12:38:54.658][DBG][Px19160][Tx26039][OCRResMgr.cpp][L15][MaaNS::ResourceNS::OCRResMgr::OCRResMgr] | enter 
+[2025-01-31 12:38:54.658][TRC][Px19160][Tx26039][OCRResMgr.cpp][L15][MaaNS::ResourceNS::OCRResMgr::OCRResMgr] | leave, 0ms 
+[2025-01-31 12:38:54.679][DBG][Px19160][Tx26039][ResourceMgr.cpp][L16][MaaNS::ResourceNS::ResourceMgr::ResourceMgr] [notify=00007FFD76603F24] [notify_trans_arg=0000000000000000] | enter 
+[2025-01-31 12:38:54.679][TRC][Px19160][Tx26039][ResourceMgr.cpp][L16][MaaNS::ResourceNS::ResourceMgr::ResourceMgr] | leave, 0ms 
+[2025-01-31 12:38:54.679][TRC][Px19160][Tx26039][MaaResource.cpp][L12][MaaResourceCreate] | leave, 20ms 
+[2025-01-31 12:38:54.679][DBG][Px19160][Tx26039][MaaResource.cpp][L109][MaaResourcePostBundle] [res=000002920AF2E1F0] [path=D:\Software\MAA\mea\resource\] | enter 
+[2025-01-31 12:38:54.679][INF][Px19160][Tx26039][ResourceMgr.cpp][L50][MaaNS::ResourceNS::ResourceMgr::post_bundle] [path=D:/Software/MAA/mea/resource/] 
+[2025-01-31 12:38:54.679][TRC][Px19160][Tx26039][MaaResource.cpp][L109][MaaResourcePostBundle] | leave, 0ms 
+[2025-01-31 12:38:54.679][DBG][Px19160][Tx18339][ResourceMgr.cpp][L488][MaaNS::ResourceNS::ResourceMgr::run_load] [id=400000001] [path=D:/Software/MAA/mea/resource/] | enter 
+[2025-01-31 12:38:54.679][DBG][Px19160][Tx18339][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603F24] [notify_trans_arg_=0000000000000000] [msg=Resource.Loading.Starting] [details={
+    "hash": "",
+    "path": "D:/Software/MAA/mea/resource/",
+    "res_id": 400000001
+}] | enter 
+[2025-01-31 12:38:54.680][TRC][Px19160][Tx18339][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:38:54.680][DBG][Px19160][Tx18339][ResourceMgr.cpp][L509][MaaNS::ResourceNS::ResourceMgr::load] [path=D:/Software/MAA/mea/resource/] | enter 
+[2025-01-31 12:38:54.680][INF][Px19160][Tx18339][ResourceMgr.cpp][L265][MaaNS::ResourceNS::ResourceMgr::available_providers] [all_providers_vec=["DmlExecutionProvider","CPUExecutionProvider"]] 
+[2025-01-31 12:38:54.680][INF][Px19160][Tx18339][ResourceMgr.cpp][L293][MaaNS::ResourceNS::ResourceMgr::available_providers] [s_provider_cache=[2,1]] 
+[2025-01-31 12:38:54.680][TRC][Px19160][Tx18339][GpuOptionWin32.cpp][L137][MaaNS::perfer_gpu] 
+[2025-01-31 12:38:54.696][INF][Px19160][Tx18339][GpuOptionWin32.cpp][L179][MaaNS::perfer_gpu] [adapter_index=0] [adapter_desc=Intel(R) UHD Graphics] 
+[2025-01-31 12:38:54.696][WRN][Px19160][Tx18339][GpuOptionWin32.cpp][L186][MaaNS::perfer_gpu] adapter has less than 1GB video memory, skip [adapter_index=0] [adapter_desc=Intel(R) UHD Graphics] [desc.DedicatedVideoMemory=134217728] 
+[2025-01-31 12:38:54.696][INF][Px19160][Tx18339][GpuOptionWin32.cpp][L179][MaaNS::perfer_gpu] [adapter_index=1] [adapter_desc=NVIDIA GeForce RTX 3060 Laptop GPU] 
+[2025-01-31 12:38:54.788][TRC][Px19160][Tx18339][GpuOptionWin32.cpp][L21][MaaNS::adapter_instance_path] 
+[2025-01-31 12:38:54.789][DBG][Px19160][Tx18339][GpuOptionWin32.cpp][L48][MaaNS::adapter_instance_path] [result=PCI\VEN_10DE&DEV_2560&SUBSYS_3E8517AA&REV_A1\4&12b1023e&0&0008] 
+[2025-01-31 12:38:54.789][TRC][Px19160][Tx18339][GpuOptionWin32.cpp][L54][MaaNS::gpu_driver_date] 
+[2025-01-31 12:38:54.789][DBG][Px19160][Tx18339][GpuOptionWin32.cpp][L83][MaaNS::gpu_driver_date] [system_time.wYear=2024] [system_time.wMonth=12] [system_time.wDay=3] 
+[2025-01-31 12:38:54.789][TRC][Px19160][Tx18339][GpuOptionWin32.cpp][L89][MaaNS::is_indirect_display_adapter] 
+[2025-01-31 12:38:54.789][DBG][Px19160][Tx18339][GpuOptionWin32.cpp][L114][MaaNS::is_indirect_display_adapter] RegQueryValueExW 1 failed [ret=2] [type=0] [size=0] 
+[2025-01-31 12:38:54.789][INF][Px19160][Tx18339][GpuOptionWin32.cpp][L218][MaaNS::perfer_gpu] prefer adapter found [adapter_index=1] [adapter_desc=NVIDIA GeForce RTX 3060 Laptop GPU] [instance_path=PCI\VEN_10DE&DEV_2560&SUBSYS_3E8517AA&REV_A1\4&12b1023e&0&0008] 
+[2025-01-31 12:38:54.789][INF][Px19160][Tx18339][ONNXResMgr.cpp][L67][MaaNS::ResourceNS::ONNXResMgr::use_directml] [device_id=1] 
+[2025-01-31 12:38:54.983][INF][Px19160][Tx18339][ONNXResMgr.cpp][L83][MaaNS::ResourceNS::ONNXResMgr::use_directml] Using DML execution provider with device_id 1 
+[2025-01-31 12:38:54.983][INF][Px19160][Tx18339][OCRResMgr.cpp][L39][MaaNS::ResourceNS::OCRResMgr::use_directml] [device_id=1] 
+[2025-01-31 12:38:54.983][DBG][Px19160][Tx18339][DefaultPipelineMgr.cpp][L14][MaaNS::ResourceNS::DefaultPipelineMgr::load] [path=D:/Software/MAA/mea/resource/default_pipeline.json] | enter 
+[2025-01-31 12:38:54.983][DBG][Px19160][Tx18339][DefaultPipelineMgr.cpp][L18][MaaNS::ResourceNS::DefaultPipelineMgr::load] path not exists [path=D:/Software/MAA/mea/resource/default_pipeline.json] 
+[2025-01-31 12:38:54.983][TRC][Px19160][Tx18339][DefaultPipelineMgr.cpp][L14][MaaNS::ResourceNS::DefaultPipelineMgr::load] | leave, 0ms 
+[2025-01-31 12:38:54.983][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L13][MaaNS::ResourceNS::PipelineResMgr::load] [path=D:/Software/MAA/mea/resource/pipeline] [is_base=false] | enter 
+[2025-01-31 12:38:54.983][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public] 
+[2025-01-31 12:38:54.983][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/AutoSweepBattle] 
+[2025-01-31 12:38:54.983][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/AutoSweepBattle/popup.json] | enter 
+[2025-01-31 12:38:54.983][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=ClickResultRecognition] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=UserSetSliderValue] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=decreaseSlider] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitAutoSweepBattleTask] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=increaseSlider] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=increaseSliderMax] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=nonScrollablePopupCancel] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=nonScrollablePopupClose] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=nonScrollablePopupConfirm] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=resultRecognition] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=scrollablePopupCancel] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=scrollablePopupClose] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=scrollablePopupConfirm] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=sliderColorDetection] 
+[2025-01-31 12:38:54.984][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/AutoSweepBattle/popupAccessories.json] | enter 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=ClickResultRecognitionAccessories] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=UserSetSliderValueAccessories] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=decreaseSliderAccessories] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=increaseSliderAccessories] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=increaseSliderMaxAccessories] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=resultRecognitionAccessories] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=scrollablePopupConfirmAccessories] 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=sliderColorDetectionAccessories] 
+[2025-01-31 12:38:54.984][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/battleTask.json] | enter 
+[2025-01-31 12:38:54.984][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=battleTask] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=battleTaskSuccess] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirm] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=levelUpNotificationClose] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=waitingBattleStartButton] 
+[2025-01-31 12:38:54.985][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/ClaimRewardTasks] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/ClaimRewardTasks/commission.json] | enter 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimDailyActiveCommissionReward] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeCommissionRewardResultPage] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterCommissionToClaimTask] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitCommissionPage] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=noCommissionRewardsToClaim] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=oneKeyClaimCommissionReward] 
+[2025-01-31 12:38:54.985][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/ClaimRewardTasks/passSystem.json] | enter 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimDailyPassReward] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimPassLevelReward] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closePassClaimResultPage] 
+[2025-01-31 12:38:54.985][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmPassRewardContent] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterPassToClaimTask] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitPassSystemPage] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=openPassSupplyCrateReward] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectPassSupplyCrateReward] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=switchToDailyPassRewardPage] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=switchToPassLevelRewardPage] 
+[2025-01-31 12:38:54.986][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/controlButton.json] | enter 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=HomePage] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=announcementClosed] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=3] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=autoBattleEnabled] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=backPage] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=battleStart] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=resourcesLoading] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=returnToHomePage] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=returnToHomePageSub] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.986][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/GuildTasks] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/GuildTasks/guildSquadDailyCombat.json] | enter 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeGuildSquadDailyCombatPage] 
+[2025-01-31 12:38:54.986][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterGuildSquadDailyCombatPage] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterGuildSquadDailyCombatResourceLoading] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterGuildSquadDailyCombatTask] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitGuildSquadDailyCombat] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=guildSquadDailyCombatCompleted] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=guildSquadDailyCombatStart] 
+[2025-01-31 12:38:54.987][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/GuildTasks/guildSquadDailyCombatLogic.json] | enter 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickConfirmButtonToExitGuildDailyCombat] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickGuildSquadDailyCombatStartButton] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enableGuildSquadDailyCombatAutoBattle] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitGuildSquadDailyCombatResourceLoading] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=guildSquadDailyCombatTaskCompleted] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=guildSquadDailyCombatTaskFailed] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=waitForGuildSquadDailyCombatToEnd] 
+[2025-01-31 12:38:54.987][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/GuildTasks/guildSquadDailySupply.json] | enter 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimGuildSquadDailySupply] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeDailySupplyResultPage] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterGuildSquadDailySupplyPage] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterGuildSquadDailySupplyTask] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=guildSquadDailySupplyBackPage] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=noClaimGuildSquadDailySupply] 
+[2025-01-31 12:38:54.987][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.987][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/MindSurveyTask] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/MindSurveyTask/mindSurvey.json] | enter 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=ExceededSelfDisciplineLimitForMindSurvey] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=cancelStaminaReplenishmentForMindSurvey] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeMindSurveyResultsPage] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmMindSurveySelfDiscipline] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmMindSurveySelfDisciplinePage] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=decreaseSelfDisciplineCountForMindSurvey] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterMindSurveyPage] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterMindSurveySelfDisciplinePreparation] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitMindSurveyTask] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=increaseSelfDisciplineCountForMindSurvey] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=insufficientStaminaForMindSurvey] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=maxSelfDisciplineCountForMindSurvey] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=mindSurveyMaterialTypePaging] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=mindSurveyNotSelfDisciplined] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectMindSurveyMaterialType] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectSecondToLastMindSurveyLevel] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=userSetMindSurveyCount] 
+[2025-01-31 12:38:54.988][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks] 
+[2025-01-31 12:38:54.988][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/BoundaryAdvance] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/BoundaryAdvance/BoundaryAdvance.json] | enter 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=boundaryAdvanceDelegateNotClaimable] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=boundaryAdvanceDelegateOneClickClaim] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=boundaryAdvanceDelegateOneClickDispatch] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=boundaryAdvanceDelegateRewardClaimResultPage] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickBoundaryAdvanceDelegateButton] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickBoundaryAdvanceTagButton] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterBoundaryAdvanceAction] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitBoundaryAdvance] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.989][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/Email] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/Email/getNewEmails.json] | enter 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimAllEmails] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickEmailsButton] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeClaimAllEmailsPopup] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitEmails] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=getNewEmails] 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=noUnclaimedItems] 
+[2025-01-31 12:38:54.989][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.989][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/GameStore] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/GameStore/gameStore.json] | enter 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickDailySupplyBox] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickPermanentGiftPackage] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickQualitySelection] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeSupplyBoxPurchaseResultPage] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmSupplyBoxPurchase] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterGameStoreAction] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitGameStore] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.990][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/StaminaReplenishments] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/StaminaReplenishments/staminaReplenishment.json] | enter 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=staminaItemsInsufficient] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=staminaRefillType] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=staminaReplenishment] 
+[2025-01-31 12:38:54.990][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/timeLimited] 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/PrepareDailyTasks/timeLimited/timeLimitedTask.json] | enter 
+[2025-01-31 12:38:54.990][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitTimeLimitedTask] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=timeLimitedTask] 
+[2025-01-31 12:38:54.991][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/PublicAreaDailyTasks] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/PublicAreaDailyTasks/dispatchCenter.json] | enter 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimDispatchCenterDispatchCountReward] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeDispatchCenterDispatchCountRewardClaimResultPage] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=dispatchCenterButtonClick] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=dispatchCenterSendAgain] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterDispatchCenterAction] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=noRewardGet] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=rewardGet] 
+[2025-01-31 12:38:54.991][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/PublicAreaDailyTasks/lounge.json] | enter 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterLoungeAction] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=loungeBackPage] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.991][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=loungeButtonClick] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=loungeConfirm] 
+[2025-01-31 12:38:54.992][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/PublicAreaDailyTasks/schedulingGains.json] | enter 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickExtractStaminaButton] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickMaxStaminaReserveButton] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickResourceProductionCollectionButton] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeResourceCollectionResultPage] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterResourceProductionPage] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterSchedulingGainsAction] 
+[2025-01-31 12:38:54.992][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/SimulatedCombat] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/SimulatedCombat/bossChallenge.json] | enter 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickBossChallengeAutonomyButton] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickEnterBossChallengePage] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeBossChallengeResultsPage] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmBossChallengeSelfDiscipline] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterBossChallengeTask] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterBossRoutineChallenge] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitBossChallenge] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=increaseSelfDisciplineCountForBossChallenge] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=insufficientPermissionsForBossChallenge] 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=maxSelfDisciplineCountForBossChallenge] 
+[2025-01-31 12:38:54.992][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.992][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/SimulatedCombat/liveDrill.json] | enter 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=challengeOpponentSelection] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimLiveDrillRewards] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickButtonToEnterOpponentSelection] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickEnterLiveDrillPage] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeLiveDrillRewardClaimResultPage] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmChallengeWithOpponent] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmLiveDrillOpponentListPage] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterLiveDrillCombatResourceLoading] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterLiveDrillTask] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitChallengeOpponentSelection] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitLiveDrillPage] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=hasChallengeSuccessfulObject] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=insufficientPermissionsForLiveDrill] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=liveDrillRewardProgressNotMet] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=liveTroopExerciseWeeklySettlement] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=refreshOpponentList] 
+[2025-01-31 12:38:54.993][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/SimulatedCombat/liveDrillCombatLogic.json] | enter 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickConfirmButtonToExitLiveDrill] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickLiveDrillStartCombatButton] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmLevelPromotionForLiveDrill] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enableLiveDrillAutoCombat] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitLiveDrillCombatResourceLoading] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=liveDrillTaskCompleted] 
+[2025-01-31 12:38:54.993][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=waitingForLiveDrillAutoCombatToEnd] 
+[2025-01-31 12:38:54.993][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/SimulatedCombat/wargameSimulation.json] | enter 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickEnterWarGameSimulationPage] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmWarGameSimulationPage] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterWarGameCombatResourceLoading] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterWarGameSimulationTask] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitWarGameSimulation] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=insufficientPermissionsForWarGameSimulation] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=startWarGameMatching] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=warGameMatchSuccess] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=warGameMatchingInProgress] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=warGameSeasonSettlement] 
+[2025-01-31 12:38:54.994][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/SimulatedCombat/wargameSimulationLogic.json] | enter 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickConfirmButtonToExitWarGame] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickWarGameCombatButton] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enableWarGameAutoCombat] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitWarGameCombatResourceLoading] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=waitingForWarGameAutoCombatToEnd] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=warGameAutoCombatFailed] 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=warGameTaskCompleted] 
+[2025-01-31 12:38:54.994][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/stopTask.json] | enter 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=stopTask] 
+[2025-01-31 12:38:54.994][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.994][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/public/VersionActivity] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/VersionActivity/enterVersionActivityItemExchange.json] | enter 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeItemPurchaseResultPage] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=confirmPurchaseItem] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterVersionActivityItemExchange] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitVersionActivityItemExchange] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=itemNotPurchasable] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectExchangeItem] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectExchangeItemQuantity] 
+[2025-01-31 12:38:54.995][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/public/VersionActivity/enterVersionActivityResourceSweep.json] | enter 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickResourceLevelSweepButton] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeResourceLevelSweepResultPage] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterVersionActivityResourceSweep] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=exitVersionActivityResourceSweep] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=resourceModeLevelSwipeLeft] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=resourceModeLoopSweepTimesInsufficient] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=resourceModeSweepTimesInsufficient] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectResourceModeLevel] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=setResourceLevelSweepTimes] 
+[2025-01-31 12:38:54.995][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=startResourceLevelSweep] 
+[2025-01-31 12:38:54.995][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/tasks] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/AutoSweepBattle.json] | enter 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=AutoSweepBattle] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=AutoSweepBattleSupplyOperationPrepare] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=AutoSweepBattleSupplyOperationPrepareAccessories] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=AutoSweepBattleSupplyOperationPrepareAccessoriesLimit] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=AutoSweepBattleSupplyOperationPrepareInsufficient] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=AutoSweepBattleSupplyOperationPrepareIsAccessories] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickAutoSweepBattleSupplyOperationButton] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=dailySaridisjinTokenTask] 
+[2025-01-31 12:38:54.996][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterAutoSweepBattleTask] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterSaridisjinTokenTask] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectHighestSupplyOperationLevel] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectedEffectsCombination] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectedEffectsCombinationNextButtonClick] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=selectedEffectsCombinationPageTopSwip] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperation] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationAutoSweepButtonDisabled] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationLevelLastTwo] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationLevelPageDownSwip] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationLevelPageTopSwip] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationPageLeftSwip] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationPageRightSwip] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationSaridisjinTokenInsufficientPermission] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationType] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationTypeIsAccessories] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=supplyOperationTypeIsSaridisjinToken] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=switchAccessoriesTag] 
+[2025-01-31 12:38:54.997][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 1ms 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/ClaimRewardTasks.json] | enter 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=ClaimRewardTasks] 
+[2025-01-31 12:38:54.997][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/GuildTasks.json] | enter 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=GuildTasks] 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickGuildButton] 
+[2025-01-31 12:38:54.997][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.997][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/MindSurveyTask.json] | enter 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=ClickToEnterMindSurveySimulatedCombatPage] 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=MindSurveyTask] 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterMindSurveyTask] 
+[2025-01-31 12:38:54.998][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/PrepareDailyTasks.json] | enter 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=PrepareDailyTasks] 
+[2025-01-31 12:38:54.998][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/PublicAreaDailyTasks.json] | enter 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=PublicAreaDailyTasks] 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickPublicAreaDailyButton] 
+[2025-01-31 12:38:54.998][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/SimulatedCombat.json] | enter 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=SimulatedCombat] 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickEnterSimulatedCombatPage] 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterSimulatedCombatTask] 
+[2025-01-31 12:38:54.998][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.998][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/StartGame.json] | enter 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_HomePage] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_announcementClosed] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=3] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_backPage] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_clickCancel] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_clickStart] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_dailyRewards] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_nonScrollablePopupClose] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_returnToHomePage] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_scrollablePopupClose] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StartGame_sunbornGameLogo] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=downloadResource] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=healthGameAdvice] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=openGF2GameApp] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=restartGF2Game] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=unzipResources] 
+[2025-01-31 12:38:54.999][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/StopGame.json] | enter 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=StopGame] 
+[2025-01-31 12:38:54.999][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/tasks/VersionActivityTask.json] | enter 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=VersionActivityTask] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickVersionActivityTagButton] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=enterVersionActivityTask] 
+[2025-01-31 12:38:54.999][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L60][MaaNS::ResourceNS::PipelineResMgr::load_all_json] entry is directory [entry_path=D:/Software/MAA/mea/resource/pipeline/TimeLimitedTasks] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/TimeLimitedTasks/claimIntelligenceSupplyStaminaTask.json] | enter 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimIntelligenceSupplyStaminaTaskTimed] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickIntelligenceSupplyTab] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickStaminaClaimButton] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeStaminaClaimResultPage] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=noClaimButton] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=noIntelligenceSupplyTab] 
+[2025-01-31 12:38:54.999][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] [path=D:/Software/MAA/mea/resource/pipeline/TimeLimitedTasks/claimSevenDayCheckInResourceTask.json] | enter 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=claimSevenDayCheckInResourceTaskTimed] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickSevenDayCheckInClaimButton] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=clickSevenDayCheckInTab] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=closeSevenDayCheckInClaimResultPage] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=noClaimButtonInSevenDayCheckIn] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L579][MaaNS::ResourceNS::PipelineResMgr::parse_template_matcher_param] thresholds.size() != template_paths.size(), auto fill 0.7 [output.template_paths.size()=2] 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L314][MaaNS::ResourceNS::PipelineResMgr::parse_task] [name=noSevenDayCheckInTab] 
+[2025-01-31 12:38:54.999][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L99][MaaNS::ResourceNS::PipelineResMgr::open_and_parse_file] | leave, 0ms 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-01-31 12:38:54.999][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-01-31 12:38:55.000][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-01-31 12:38:55.000][DBG][Px19160][Tx18339][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-01-31 12:38:55.000][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-01-31 12:38:55.000][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-01-31 12:38:55.000][TRC][Px19160][Tx18339][PipelineResMgr.cpp][L13][MaaNS::ResourceNS::PipelineResMgr::load] | leave, 17ms 
+[2025-01-31 12:38:55.000][DBG][Px19160][Tx18339][OCRResMgr.cpp][L58][MaaNS::ResourceNS::OCRResMgr::lazy_load] [path=D:/Software/MAA/mea/resource/model/ocr] [is_base=false] | enter 
+[2025-01-31 12:38:55.000][TRC][Px19160][Tx18339][OCRResMgr.cpp][L58][MaaNS::ResourceNS::OCRResMgr::lazy_load] | leave, 0ms 
+[2025-01-31 12:38:55.000][DBG][Px19160][Tx18339][ONNXResMgr.cpp][L118][MaaNS::ResourceNS::ONNXResMgr::lazy_load] [path=D:/Software/MAA/mea/resource/model] [is_base=false] | enter 
+[2025-01-31 12:38:55.000][TRC][Px19160][Tx18339][ONNXResMgr.cpp][L118][MaaNS::ResourceNS::ONNXResMgr::lazy_load] | leave, 0ms 
+[2025-01-31 12:38:55.000][DBG][Px19160][Tx18339][TemplateResMgr.cpp][L10][MaaNS::ResourceNS::TemplateResMgr::lazy_load] [path=D:/Software/MAA/mea/resource/image] [is_base=false] | enter 
+[2025-01-31 12:38:55.000][TRC][Px19160][Tx18339][TemplateResMgr.cpp][L10][MaaNS::ResourceNS::TemplateResMgr::lazy_load] | leave, 0ms 
+[2025-01-31 12:38:55.000][INF][Px19160][Tx18339][ResourceMgr.cpp][L527][MaaNS::ResourceNS::ResourceMgr::load] [path=D:/Software/MAA/mea/resource/] [ret=true] 
+[2025-01-31 12:38:55.000][TRC][Px19160][Tx18339][ResourceMgr.cpp][L509][MaaNS::ResourceNS::ResourceMgr::load] | leave, 320ms 
+[2025-01-31 12:38:55.002][INF][Px19160][Tx18339][ResourceMgr.cpp][L147][MaaNS::ResourceNS::ResourceMgr::calc_hash] [hash_cache_=b8d513e63a17be63] 
+[2025-01-31 12:38:55.002][DBG][Px19160][Tx18339][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603F24] [notify_trans_arg_=0000000000000000] [msg=Resource.Loading.Succeeded] [details={
+    "hash": "b8d513e63a17be63",
+    "path": "D:/Software/MAA/mea/resource/",
+    "res_id": 400000001
+}] | enter 
+[2025-01-31 12:38:55.002][TRC][Px19160][Tx18339][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:38:55.002][TRC][Px19160][Tx18339][ResourceMgr.cpp][L488][MaaNS::ResourceNS::ResourceMgr::run_load] | leave, 322ms 
+[2025-01-31 12:38:55.003][DBG][Px19160][Tx26039][MaaController.cpp][L21][MaaAdbControllerCreate] [adb_path=..\..\Emulator\Netease\MuMuPlayerGlobal-12.0\shell\adb.exe] [address=127.0.0.1:16416] [screencap_methods=18446744073709551559] [input_methods=4] [config={}] [agent_path=./MaaAgentBinary] [notify=00007FFD76603F64] [notify_trans_arg=0000000000000000] | enter 
+[2025-01-31 12:38:55.003][DBG][Px19160][Tx26039][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] [libname=D:/Software/MAA/mea/MaaAdbControlUnit] | enter 
+[2025-01-31 12:38:55.003][INF][Px19160][Tx26039][LibraryHolder.h][L64][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] Loading library [libname=D:/Software/MAA/mea/MaaAdbControlUnit] 
+[2025-01-31 12:38:55.004][TRC][Px19160][Tx26039][LibraryHolder.h][L49][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::load_library] | leave, 1ms 
+[2025-01-31 12:38:55.004][DBG][Px19160][Tx26039][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitGetVersion] | enter 
+[2025-01-31 12:38:55.004][TRC][Px19160][Tx26039][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-01-31 12:38:55.004][INF][Px19160][Tx26039][ControlUnit.cpp][L22][MaaNS::check_version] class MaaNS::AdbControlUnitLibraryHolder Library version: v3.0.1 
+[2025-01-31 12:38:55.004][DBG][Px19160][Tx26039][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitCreate] | enter 
+[2025-01-31 12:38:55.004][TRC][Px19160][Tx26039][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-01-31 12:38:55.004][DBG][Px19160][Tx26039][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] [func_name=MaaAdbControlUnitDestroy] | enter 
+[2025-01-31 12:38:55.004][TRC][Px19160][Tx26039][LibraryHolder.h][L115][MaaNS::LibraryHolder<class MaaNS::AdbControlUnitLibraryHolder>::get_function] | leave, 0ms 
+[2025-01-31 12:38:55.005][DBG][Px19160][Tx26039][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] [adb_path=..\..\Emulator\Netease\MuMuPlayerGlobal-12.0\shell\adb.exe] [adb_serial=127.0.0.1:16416] [screencap_methods=18446744073709551559] [input_methods=4] [config={}] [agent_path=./MaaAgentBinary] | enter 
+[2025-01-31 12:38:55.005][TRC][Px19160][Tx26039][AdbControlUnitAPI.cpp][L28][MaaAdbControlUnitCreate] | leave, 0ms 
+[2025-01-31 12:38:55.005][DBG][Px19160][Tx26039][ControllerAgent.cpp][L16][MaaNS::ControllerNS::ControllerAgent::ControllerAgent] [notify=00007FFD76603F64] [notify_trans_arg=0000000000000000] | enter 
+[2025-01-31 12:38:55.005][TRC][Px19160][Tx26039][ControllerAgent.cpp][L16][MaaNS::ControllerNS::ControllerAgent::ControllerAgent] | leave, 0ms 
+[2025-01-31 12:38:55.005][TRC][Px19160][Tx26039][MaaController.cpp][L21][MaaAdbControllerCreate] | leave, 1ms 
+[2025-01-31 12:38:55.005][DBG][Px19160][Tx26039][MaaController.cpp][L132][MaaControllerPostConnection] [ctrl=000002920F23A8C0] | enter 
+[2025-01-31 12:38:55.005][TRC][Px19160][Tx26039][MaaController.cpp][L132][MaaControllerPostConnection] | leave, 0ms 
+[2025-01-31 12:38:55.005][DBG][Px19160][Tx7095][DeviceInfo.cpp][L26][MaaNS::CtrlUnitNs::DeviceInfo::request_uuid] | enter 
+[2025-01-31 12:38:55.012][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","shell","settings get secure android_id"]] [child_.id()=22008] 
+[2025-01-31 12:38:55.085][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=18] [duration=77ms] 
+[2025-01-31 12:38:55.085][DBG][Px19160][Tx7095][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+dafd6ffae6905847
+
+
+[2025-01-31 12:38:55.085][TRC][Px19160][Tx7095][DeviceInfo.cpp][L26][MaaNS::CtrlUnitNs::DeviceInfo::request_uuid] | leave, 80ms 
+[2025-01-31 12:38:55.085][DBG][Px19160][Tx7095][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603F64] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Starting] [details={
+    "action": "connect",
+    "ctrl_id": 400000001,
+    "uuid": "dafd6ffae6905847"
+}] | enter 
+[2025-01-31 12:38:55.085][TRC][Px19160][Tx7095][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:38:55.085][DBG][Px19160][Tx7095][GeneralControllerAgent.cpp][L22][MaaNS::ControllerNS::GeneralControllerAgent::_connect] | enter 
+[2025-01-31 12:38:55.085][DBG][Px19160][Tx7095][Connection.cpp][L35][MaaNS::CtrlUnitNs::Connection::connect] | enter 
+[2025-01-31 12:38:55.094][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["connect","127.0.0.1:16416"]] [child_.id()=6816] 
+[2025-01-31 12:38:55.122][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=38] [duration=33ms] 
+[2025-01-31 12:38:55.122][DBG][Px19160][Tx7095][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+already connected to 127.0.0.1:16416
+
+
+[2025-01-31 12:38:55.122][INF][Px19160][Tx7095][Connection.cpp][L95][MaaNS::CtrlUnitNs::Connection::connect_remote] connected 
+[2025-01-31 12:38:55.122][DBG][Px19160][Tx7095][Connection.cpp][L64][MaaNS::CtrlUnitNs::Connection::test_connection] | enter 
+[2025-01-31 12:38:55.130][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","shell","echo Hello MaaFw!"]] [child_.id()=15880] 
+[2025-01-31 12:38:55.164][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=14] [duration=39ms] 
+[2025-01-31 12:38:55.164][DBG][Px19160][Tx7095][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+Hello MaaFw!
+
+
+[2025-01-31 12:38:55.164][TRC][Px19160][Tx7095][Connection.cpp][L64][MaaNS::CtrlUnitNs::Connection::test_connection] | leave, 42ms 
+[2025-01-31 12:38:55.164][TRC][Px19160][Tx7095][Connection.cpp][L35][MaaNS::CtrlUnitNs::Connection::connect] | leave, 78ms 
+[2025-01-31 12:38:55.164][INF][Px19160][Tx7095][ScreencapAgent.cpp][L50][MaaNS::CtrlUnitNs::ScreencapAgent::ScreencapAgent] [methods=18446744073709551559] [method_set=[1,2,3,7,8]] [agent_path=./MaaAgentBinary] 
+[2025-01-31 12:38:55.164][INF][Px19160][Tx7095][MuMuPlayerExtras.cpp][L22][MaaNS::CtrlUnitNs::MuMuPlayerExtras::parse] extras.mumu.enable is false, ignore 
+[2025-01-31 12:38:55.164][WRN][Px19160][Tx7095][ScreencapAgent.cpp][L118][MaaNS::CtrlUnitNs::ScreencapAgent::parse] failed to parse MuMuPlayerExtras 
+[2025-01-31 12:38:55.164][INF][Px19160][Tx7095][LDPlayerExtras.cpp][L22][MaaNS::CtrlUnitNs::LDPlayerExtras::parse] extras.ld.enable is false, ignore 
+[2025-01-31 12:38:55.164][WRN][Px19160][Tx7095][ScreencapAgent.cpp][L118][MaaNS::CtrlUnitNs::ScreencapAgent::parse] failed to parse LDPlayerExtras 
+[2025-01-31 12:38:55.164][DBG][Px19160][Tx7095][ScreencapAgent.cpp][L128][MaaNS::CtrlUnitNs::ScreencapAgent::init] | enter 
+[2025-01-31 12:38:55.164][DBG][Px19160][Tx7095][ScreencapAgent.cpp][L196][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] | enter 
+[2025-01-31 12:38:55.164][INF][Px19160][Tx7095][ScreencapAgent.cpp][L223][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] Testing EncodeToFileAndPull 
+[2025-01-31 12:38:55.173][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","shell","screencap -p > \"/data/local/tmp/2025.01.31-12.38.55.164\""]] [child_.id()=14816] 
+[2025-01-31 12:38:56.182][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=0] [duration=1014ms] 
+[2025-01-31 12:38:56.191][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","pull","/data/local/tmp/2025.01.31-12.38.55.164","C:/Users/LushS/AppData/Local/Temp/2025.01.31-12.38.55.164"]] [child_.id()=22668] 
+[2025-01-31 12:38:56.753][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=103] [duration=567ms] 
+[2025-01-31 12:38:56.753][DBG][Px19160][Tx7095][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+/data/local/tmp/2025.01.31-12.38.55.164: 1 file pulled, 0 skipped. 2.8 MB/s (1569493 bytes in 0.526s)
+
+
+[2025-01-31 12:38:56.792][INF][Px19160][Tx7095][ScreencapAgent.cpp][L207][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test::<lambda_1>::operator ()] [method=EncodeToFileAndPull] [duration=1627ms] 
+[2025-01-31 12:38:56.792][INF][Px19160][Tx7095][ScreencapAgent.cpp][L223][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] Testing Encode 
+[2025-01-31 12:38:56.800][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap -p"]] [child_.id()=11204] 
+[2025-01-31 12:38:57.998][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=1572496] [duration=1203ms] 
+[2025-01-31 12:38:58.038][INF][Px19160][Tx7095][ScreencapHelper.cpp][L52][MaaNS::CtrlUnitNs::ScreencapHelper::process_data] end_of_line is LF 
+[2025-01-31 12:38:58.038][INF][Px19160][Tx7095][ScreencapAgent.cpp][L207][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test::<lambda_1>::operator ()] [method=Encode] [duration=1245ms] 
+[2025-01-31 12:38:58.038][INF][Px19160][Tx7095][ScreencapAgent.cpp][L223][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] Testing RawWithGzip 
+[2025-01-31 12:38:58.048][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=11956] 
+[2025-01-31 12:38:58.924][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2644594] [duration=881ms] 
+[2025-01-31 12:38:58.991][INF][Px19160][Tx7095][ScreencapHelper.cpp][L52][MaaNS::CtrlUnitNs::ScreencapHelper::process_data] end_of_line is LF 
+[2025-01-31 12:38:58.992][INF][Px19160][Tx7095][ScreencapAgent.cpp][L207][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test::<lambda_1>::operator ()] [method=RawWithGzip] [duration=953ms] 
+[2025-01-31 12:38:58.992][INF][Px19160][Tx7095][ScreencapAgent.cpp][L237][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] The fastest method is RawWithGzip [cost=953ms] 
+[2025-01-31 12:38:58.992][TRC][Px19160][Tx7095][ScreencapAgent.cpp][L196][MaaNS::CtrlUnitNs::ScreencapAgent::speed_test] | leave, 3826ms 
+[2025-01-31 12:38:58.992][TRC][Px19160][Tx7095][ScreencapAgent.cpp][L128][MaaNS::CtrlUnitNs::ScreencapAgent::init] | leave, 3826ms 
+[2025-01-31 12:38:58.992][INF][Px19160][Tx7095][InputAgent.cpp][L35][MaaNS::CtrlUnitNs::InputAgent::InputAgent] [methods=4] [method_vector=[3]] [agent_path=./MaaAgentBinary] 
+[2025-01-31 12:38:58.992][DBG][Px19160][Tx7095][InputAgent.cpp][L94][MaaNS::CtrlUnitNs::InputAgent::init] | enter 
+[2025-01-31 12:38:58.992][DBG][Px19160][Tx7095][MaatouchInput.cpp][L28][MaaNS::CtrlUnitNs::MaatouchInput::init] | enter 
+[2025-01-31 12:38:58.992][DBG][Px19160][Tx7095][InvokeApp.cpp][L59][MaaNS::CtrlUnitNs::InvokeApp::init] [tempname_=2025.01.31-12.38.58.992] 
+[2025-01-31 12:38:58.992][DBG][Px19160][Tx7095][InvokeApp.cpp][L106][MaaNS::CtrlUnitNs::InvokeApp::push] [path=./MaaAgentBinary/maatouch/universal/maatouch] | enter 
+[2025-01-31 12:38:59.001][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","push","D:/Software/MAA/mea/MaaAgentBinary/maatouch/universal/maatouch","/data/local/tmp/2025.01.31-12.38.58.992"]] [child_.id()=12960] 
+[2025-01-31 12:38:59.041][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=125] [duration=46ms] 
+[2025-01-31 12:38:59.041][DBG][Px19160][Tx7095][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+D:/Software/MAA/mea/MaaAgentBinary/maatouch/universal/maatouch: 1 file pushed, 0 skipped. 45.1 MB/s (13775 bytes in 0.000s)
+
+
+[2025-01-31 12:38:59.041][TRC][Px19160][Tx7095][InvokeApp.cpp][L106][MaaNS::CtrlUnitNs::InvokeApp::push] | leave, 49ms 
+[2025-01-31 12:38:59.041][DBG][Px19160][Tx7095][InvokeApp.cpp][L127][MaaNS::CtrlUnitNs::InvokeApp::chmod] | enter 
+[2025-01-31 12:38:59.049][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","shell","chmod 700 \"/data/local/tmp/2025.01.31-12.38.58.992\""]] [child_.id()=22816] 
+[2025-01-31 12:38:59.100][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=0] [duration=55ms] 
+[2025-01-31 12:38:59.100][TRC][Px19160][Tx7095][InvokeApp.cpp][L127][MaaNS::CtrlUnitNs::InvokeApp::chmod] | leave, 58ms 
+[2025-01-31 12:38:59.100][DBG][Px19160][Tx7095][InvokeApp.cpp][L203][MaaNS::CtrlUnitNs::InvokeApp::invoke_app] [package=com.shxyke.MaaTouch.App] | enter 
+[2025-01-31 12:38:59.108][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","shell","export CLASSPATH=\"/data/local/tmp/2025.01.31-12.38.58.992\"; app_process /data/local/tmp com.shxyke.MaaTouch.App"]] [child_.id()=8792] 
+[2025-01-31 12:38:59.108][TRC][Px19160][Tx7095][InvokeApp.cpp][L203][MaaNS::CtrlUnitNs::InvokeApp::invoke_app] | leave, 8ms 
+[2025-01-31 12:38:59.607][INF][Px19160][Tx7095][MtouchHelper.cpp][L29][MaaNS::CtrlUnitNs::MtouchHelper::read_info] [info= 10 1920 1080 255
+] 
+[2025-01-31 12:38:59.607][DBG][Px19160][Tx7095][DeviceInfo.cpp][L46][MaaNS::CtrlUnitNs::DeviceInfo::request_resolution] | enter 
+[2025-01-31 12:38:59.614][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","shell","dumpsys window displays | grep DisplayFrames | tail -n 1 | grep -o -E [0-9]+"]] [child_.id()=8648] 
+[2025-01-31 12:38:59.739][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=15] [duration=129ms] 
+[2025-01-31 12:38:59.739][DBG][Px19160][Tx7095][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+1920
+1080
+1
+
+
+[2025-01-31 12:38:59.739][TRC][Px19160][Tx7095][DeviceInfo.cpp][L46][MaaNS::CtrlUnitNs::DeviceInfo::request_resolution] | leave, 132ms 
+[2025-01-31 12:38:59.739][DBG][Px19160][Tx7095][DeviceInfo.cpp][L68][MaaNS::CtrlUnitNs::DeviceInfo::request_orientation] | enter 
+[2025-01-31 12:38:59.747][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","shell","dumpsys input | grep SurfaceOrientation | tail -n 1 | grep -m 1 -o -E [0-9]"]] [child_.id()=9072] 
+[2025-01-31 12:38:59.803][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=3] [duration=60ms] 
+[2025-01-31 12:38:59.803][DBG][Px19160][Tx7095][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+1
+
+
+[2025-01-31 12:38:59.803][TRC][Px19160][Tx7095][DeviceInfo.cpp][L68][MaaNS::CtrlUnitNs::DeviceInfo::request_orientation] | leave, 63ms 
+[2025-01-31 12:38:59.803][INF][Px19160][Tx7095][MtouchHelper.cpp][L53][MaaNS::CtrlUnitNs::MtouchHelper::read_info] [display_width_=1920] [display_height_=1080] [touch_width_=1920] [touch_height_=1080] [xscale_=1] [yscale_=1] [press_=255] [orientation_=1] 
+[2025-01-31 12:38:59.803][TRC][Px19160][Tx7095][MaatouchInput.cpp][L28][MaaNS::CtrlUnitNs::MaatouchInput::init] | leave, 811ms 
+[2025-01-31 12:38:59.803][TRC][Px19160][Tx7095][InputAgent.cpp][L94][MaaNS::CtrlUnitNs::InputAgent::init] | leave, 811ms 
+[2025-01-31 12:38:59.803][TRC][Px19160][Tx7095][GeneralControllerAgent.cpp][L22][MaaNS::ControllerNS::GeneralControllerAgent::_connect] | leave, 4717ms 
+[2025-01-31 12:38:59.803][DBG][Px19160][Tx7095][DeviceInfo.cpp][L26][MaaNS::CtrlUnitNs::DeviceInfo::request_uuid] | enter 
+[2025-01-31 12:38:59.810][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","shell","settings get secure android_id"]] [child_.id()=12272] 
+[2025-01-31 12:38:59.860][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=18] [duration=53ms] 
+[2025-01-31 12:38:59.860][DBG][Px19160][Tx7095][UnitBase.cpp][L60][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] output:
+dafd6ffae6905847
+
+
+[2025-01-31 12:38:59.860][TRC][Px19160][Tx7095][DeviceInfo.cpp][L26][MaaNS::CtrlUnitNs::DeviceInfo::request_uuid] | leave, 56ms 
+[2025-01-31 12:38:59.860][DBG][Px19160][Tx7095][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603F64] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Succeeded] [details={
+    "action": "connect",
+    "ctrl_id": 400000001,
+    "uuid": "dafd6ffae6905847"
+}] | enter 
+[2025-01-31 12:38:59.860][TRC][Px19160][Tx7095][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:38:59.862][DBG][Px19160][Tx26039][MaaTasker.cpp][L10][MaaTaskerCreate] [notify=00007FFD76603FA4] [notify_trans_arg=0000000000000000] | enter 
+[2025-01-31 12:38:59.862][DBG][Px19160][Tx26039][Tasker.cpp][L17][MaaNS::Tasker::Tasker] [notify=00007FFD76603FA4] [notify_trans_arg=0000000000000000] | enter 
+[2025-01-31 12:38:59.862][TRC][Px19160][Tx26039][Tasker.cpp][L17][MaaNS::Tasker::Tasker] | leave, 0ms 
+[2025-01-31 12:38:59.862][TRC][Px19160][Tx26039][MaaTasker.cpp][L10][MaaTaskerCreate] | leave, 0ms 
+[2025-01-31 12:38:59.863][DBG][Px19160][Tx26039][MaaTasker.cpp][L53][MaaTaskerBindController] [tasker=000002920BB8FDD0] [ctrl=000002920F23A8C0] | enter 
+[2025-01-31 12:38:59.863][INF][Px19160][Tx26039][Tasker.cpp][L47][MaaNS::Tasker::bind_controller] [this=000002920BB8FDD0] [controller=000002920F23A8C0] 
+[2025-01-31 12:38:59.863][TRC][Px19160][Tx26039][MaaTasker.cpp][L53][MaaTaskerBindController] | leave, 0ms 
+[2025-01-31 12:38:59.863][DBG][Px19160][Tx26039][MaaTasker.cpp][L41][MaaTaskerBindResource] [tasker=000002920BB8FDD0] [res=000002920AF2E1F0] | enter 
+[2025-01-31 12:38:59.863][INF][Px19160][Tx26039][Tasker.cpp][L33][MaaNS::Tasker::bind_resource] [this=000002920BB8FDD0] [resource=000002920AF2E1F0] 
+[2025-01-31 12:38:59.863][TRC][Px19160][Tx26039][MaaTasker.cpp][L41][MaaTaskerBindResource] | leave, 0ms 
+[2025-01-31 12:38:59.876][DBG][Px19160][Tx26039][MaaUtility.cpp][L15][MaaSetGlobalOption] [key=2] [value=00000292211B1F48] [val_size=1] | enter 
+[2025-01-31 12:38:59.876][DBG][Px19160][Tx26039][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] [key=2] [value=00000292211B1F48] [val_size=1] | enter 
+[2025-01-31 12:38:59.876][DBG][Px19160][Tx26039][GlobalOptionMgr.cpp][L47][MaaNS::GlobalOptionMgr::set_save_draw] | enter 
+[2025-01-31 12:38:59.876][INF][Px19160][Tx26039][GlobalOptionMgr.cpp][L56][MaaNS::GlobalOptionMgr::set_save_draw] Set save draw [save_draw_=true] 
+[2025-01-31 12:38:59.876][TRC][Px19160][Tx26039][GlobalOptionMgr.cpp][L47][MaaNS::GlobalOptionMgr::set_save_draw] | leave, 0ms 
+[2025-01-31 12:38:59.876][TRC][Px19160][Tx26039][GlobalOptionMgr.cpp][L10][MaaNS::GlobalOptionMgr::set_option] | leave, 0ms 
+[2025-01-31 12:38:59.876][TRC][Px19160][Tx26039][MaaUtility.cpp][L15][MaaSetGlobalOption] | leave, 0ms 
+[2025-01-31 12:38:59.878][DBG][Px19160][Tx20242][MaaController.cpp][L252][MaaControllerPostScreencap] [ctrl=000002920F23A8C0] | enter 
+[2025-01-31 12:38:59.878][TRC][Px19160][Tx20242][MaaController.cpp][L252][MaaControllerPostScreencap] | leave, 0ms 
+[2025-01-31 12:38:59.878][DBG][Px19160][Tx7095][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603F64] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Starting] [details={
+    "action": "screencap",
+    "ctrl_id": 400000002,
+    "uuid": "dafd6ffae6905847"
+}] | enter 
+[2025-01-31 12:38:59.878][TRC][Px19160][Tx7095][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:38:59.885][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=23424] 
+[2025-01-31 12:39:01.000][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2664707] [duration=1118ms] 
+[2025-01-31 12:39:01.036][INF][Px19160][Tx7095][ControllerAgent.cpp][L767][MaaNS::ControllerNS::ControllerAgent::postproc_screenshot] Resolution changed [raw.cols=1920] [raw.rows=1080] [image_raw_width_=0] [image_raw_height_=0] 
+[2025-01-31 12:39:01.036][DBG][Px19160][Tx7095][ControllerAgent.cpp][L797][MaaNS::ControllerNS::ControllerAgent::calc_target_image_size] Re-calc image target size: [image_target_long_side_=0] [image_target_short_side_=720] [image_raw_width_=1920] [image_raw_height_=1080] 
+[2025-01-31 12:39:01.036][INF][Px19160][Tx7095][ControllerAgent.cpp][L823][MaaNS::ControllerNS::ControllerAgent::calc_target_image_size] [image_target_width_=1280] [image_target_height_=720] 
+[2025-01-31 12:39:01.038][DBG][Px19160][Tx7095][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603F64] [notify_trans_arg_=0000000000000000] [msg=Controller.Action.Succeeded] [details={
+    "action": "screencap",
+    "ctrl_id": 400000002,
+    "uuid": "dafd6ffae6905847"
+}] | enter 
+[2025-01-31 12:39:01.038][TRC][Px19160][Tx7095][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:39:01.040][DBG][Px19160][Tx20242][MaaTasker.cpp][L75][MaaTaskerPostTask] [tasker=000002920BB8FDD0] [entry=ClaimRewardTasks] [pipeline_override={}] | enter 
+[2025-01-31 12:39:01.040][INF][Px19160][Tx20242][Tasker.cpp][L74][MaaNS::Tasker::post_task] [entry=ClaimRewardTasks] [pipeline_override={
+}] 
+[2025-01-31 12:39:01.040][DBG][Px19160][Tx20242][Context.cpp][L22][MaaNS::TaskNS::Context::create] [id=100000001] [tasker=000002920BB8FDD0] 
+[2025-01-31 12:39:01.040][DBG][Px19160][Tx20242][Context.cpp][L17][MaaNS::TaskNS::Context::Context] [id=100000001] [tasker=000002920BB8FDD0] 
+[2025-01-31 12:39:01.040][DBG][Px19160][Tx20242][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] [getptr()=000002920B14EEE0] [pipeline_override={
+}] | enter 
+[2025-01-31 12:39:01.040][DBG][Px19160][Tx20242][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-01-31 12:39:01.040][DBG][Px19160][Tx20242][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-01-31 12:39:01.040][TRC][Px19160][Tx20242][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-01-31 12:39:01.040][DBG][Px19160][Tx20242][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-01-31 12:39:01.041][TRC][Px19160][Tx20242][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-01-31 12:39:01.041][TRC][Px19160][Tx20242][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-01-31 12:39:01.041][TRC][Px19160][Tx20242][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] | leave, 0ms 
+[2025-01-31 12:39:01.041][TRC][Px19160][Tx20242][MaaTasker.cpp][L75][MaaTaskerPostTask] | leave, 1ms 
+[2025-01-31 12:39:01.041][DBG][Px19160][Tx10125][Tasker.cpp][L221][MaaNS::Tasker::run_task] [runner_id=400000001] [task_ptr=000002920BDB23D0] | enter 
+[2025-01-31 12:39:01.041][INF][Px19160][Tx10125][Tasker.cpp][L244][MaaNS::Tasker::run_task] task start: [cb_detail={
+    "entry": "ClaimRewardTasks",
+    "hash": "b8d513e63a17be63",
+    "task_id": 100000001,
+    "uuid": "dafd6ffae6905847"
+}] 
+[2025-01-31 12:39:01.041][DBG][Px19160][Tx10125][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603FA4] [notify_trans_arg_=0000000000000000] [msg=Tasker.Task.Starting] [details={
+    "entry": "ClaimRewardTasks",
+    "hash": "b8d513e63a17be63",
+    "task_id": 100000001,
+    "uuid": "dafd6ffae6905847"
+}] | enter 
+[2025-01-31 12:39:01.041][TRC][Px19160][Tx10125][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:39:01.041][DBG][Px19160][Tx10125][PipelineTask.cpp][L22][MaaNS::TaskNS::PipelineTask::run] [entry_=ClaimRewardTasks] | enter 
+[2025-01-31 12:39:01.050][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=8268] 
+[2025-01-31 12:39:02.199][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2629458] [duration=1153ms] 
+[2025-01-31 12:39:02.235][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=ClaimRewardTasks] [list=["ClaimRewardTasks"]] | enter 
+[2025-01-31 12:39:02.235][DBG][Px19160][Tx10125][Recognizer.cpp][L109][MaaNS::TaskNS::Recognizer::direct_hit] ClaimRewardTasks 
+[2025-01-31 12:39:02.235][INF][Px19160][Tx10125][TaskBase.cpp][L129][MaaNS::TaskNS::TaskBase::run_recognition] node hit [result.name=ClaimRewardTasks] [result.box=[0 x 0 from (0, 0)]] 
+[2025-01-31 12:39:02.235][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 0ms 
+[2025-01-31 12:39:02.235][DBG][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] [pipeline_data.name=ClaimRewardTasks] | enter 
+[2025-01-31 12:39:02.235][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:02.438][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 201ms 
+[2025-01-31 12:39:02.438][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:02.639][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:02.639][TRC][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] | leave, 402ms 
+[2025-01-31 12:39:02.645][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=7216] 
+[2025-01-31 12:39:03.990][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2650515] [duration=1348ms] 
+[2025-01-31 12:39:04.026][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=ClaimRewardTasks] [list=["enterCommissionToClaimTask","StartGame"]] | enter 
+[2025-01-31 12:39:04.026][DBG][Px19160][Tx10125][OCRResMgr.cpp][L125][MaaNS::ResourceNS::OCRResMgr::load_deter] [name=] [roots_=["D:/Software/MAA/mea/resource/model/ocr"]] | enter 
+[2025-01-31 12:39:04.026][DBG][Px19160][Tx10125][OCRResMgr.cpp][L133][MaaNS::ResourceNS::OCRResMgr::load_deter] [model_path=D:/Software/MAA/mea/resource/model/ocr/det.onnx] 
+[2025-01-31 12:39:04.186][TRC][Px19160][Tx10125][OCRResMgr.cpp][L125][MaaNS::ResourceNS::OCRResMgr::load_deter] | leave, 161ms 
+[2025-01-31 12:39:04.188][DBG][Px19160][Tx10125][OCRResMgr.cpp][L151][MaaNS::ResourceNS::OCRResMgr::load_recer] [name=] [roots_=["D:/Software/MAA/mea/resource/model/ocr"]] | enter 
+[2025-01-31 12:39:04.188][DBG][Px19160][Tx10125][OCRResMgr.cpp][L160][MaaNS::ResourceNS::OCRResMgr::load_recer] [model_path=D:/Software/MAA/mea/resource/model/ocr/rec.onnx] 
+[2025-01-31 12:39:04.397][TRC][Px19160][Tx10125][OCRResMgr.cpp][L151][MaaNS::ResourceNS::OCRResMgr::load_recer] | leave, 209ms 
+[2025-01-31 12:39:04.398][DBG][Px19160][Tx10125][OCRResMgr.cpp][L182][MaaNS::ResourceNS::OCRResMgr::load_ocrer] [name=] [roots_=["D:/Software/MAA/mea/resource/model/ocr"]] | enter 
+[2025-01-31 12:39:04.398][TRC][Px19160][Tx10125][OCRResMgr.cpp][L182][MaaNS::ResourceNS::OCRResMgr::load_ocrer] | leave, 0ms 
+[2025-01-31 12:39:05.118][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] enterCommissionToClaimTask [uid_=300000001] [all_results_=[{"box":[53,664,220,17],"score":0.920330,"text":"指挥官等级56i17/240+"},{"box":[64,127,96,25],"score":0.999059,"text":"烟火迎春归"},{"box":[82,615,56,24],"score":0.289201,"text":"心"},{"box":[161,615,41,21],"score":0.717755,"text":"S"},{"box":[252,620,17,11],"score":0.217193,"text":"。"},{"box":[266,663,106,18],"score":0.891485,"text":"590±"},{"box":[544,655,44,25],"score":0.999571,"text":"巡录"},{"box":[633,655,44,25],"score":0.998920,"text":"编队"},{"box":[724,655,45,25],"score":0.998976,"text":"活动"},{"box":[813,655,45,25],"score":0.986506,"text":"委托"},{"box":[902,655,46,25],"score":0.998904,"text":"班组"},{"box":[997,628,152,36],"score":0.989164,"text":"定向采购"},{"box":[997,660,204,18],"score":0.823227,"text":"米什缇」「夏克里」「纳甘」获取概零提升"},{"box":[1005,67,215,50],"score":0.992850,"text":"战役推进"},{"box":[1078,170,36,25],"score":0.121189,"text":"C"},{"box":[1102,170,111,28],"score":0.998070,"text":"限时开启"},{"box":[1130,243,84,33],"score":0.998980,"text":"整备室"},{"box":[1132,397,25,14],"score":0.987103,"text":"UP"},{"box":[1133,121,63,12],"score":0.883398,"text":"//.ELMO-0604"},{"box":[1133,320,80,28],"score":0.997003,"text":"公共区"},{"box":[1152,393,60,30],"score":0.999257,"text":"招募"},{"box":[1157,17,68,24],"score":0.981203,"text":"MCVELMO"},{"box":[1157,467,57,29],"score":0.997476,"text":"商城"},{"box":[1170,424,36,10],"score":0.849818,"text":"A:94.2935.26"}]] [filtered_results_=[{"box":[813,655,45,25],"score":0.986506,"text":"委托"}]] [best_result_={"box":[813,655,45,25],"score":0.986506,"text":"委托"}] [cost=721ms] [param_.model=] [param_.only_rec=false] [param_.expected=["^委托$"]] 
+[2025-01-31 12:39:05.152][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/enterCommissionToClaimTask_300000001_2025.01.31-12.39.05.118.png 
+[2025-01-31 12:39:05.152][INF][Px19160][Tx10125][TaskBase.cpp][L129][MaaNS::TaskNS::TaskBase::run_recognition] node hit [result.name=enterCommissionToClaimTask] [result.box=[45 x 25 from (813, 655)]] 
+[2025-01-31 12:39:05.152][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 1126ms 
+[2025-01-31 12:39:05.152][DBG][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] [pipeline_data.name=enterCommissionToClaimTask] | enter 
+[2025-01-31 12:39:05.152][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:05.354][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:05.354][INF][Px19160][Tx7095][MtouchHelper.cpp][L95][MaaNS::CtrlUnitNs::MtouchHelper::click] [x=1257] [y=1010] [touch_x=1257] [touch_y=1010] 
+[2025-01-31 12:39:05.354][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 1500ms | enter 
+[2025-01-31 12:39:06.855][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 1500ms 
+[2025-01-31 12:39:06.855][TRC][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] | leave, 1701ms 
+[2025-01-31 12:39:06.862][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=18280] 
+[2025-01-31 12:39:08.085][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2395668] [duration=1227ms] 
+[2025-01-31 12:39:08.119][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=enterCommissionToClaimTask] [list=["oneKeyClaimCommissionReward","claimDailyActiveCommissionReward","noCommissionRewardsToClaim"]] | enter 
+[2025-01-31 12:39:08.212][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] oneKeyClaimCommissionReward [uid_=300000002] [all_results_=[{"box":[300,34,98,58],"score":0.328801,"text":"n1"},{"box":[362,23,23,15],"score":0.260591,"text":"2EEEL"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=94ms] [param_.model=] [param_.only_rec=false] [param_.expected=["键领取"]] 
+[2025-01-31 12:39:08.242][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/oneKeyClaimCommissionReward_300000002_2025.01.31-12.39.08.212.png 
+[2025-01-31 12:39:08.242][DBG][Px19160][Tx10125][OCRer.cpp][L57][MaaNS::VisionNS::OCRer::predict] Hit OCR cache [roi_=[1280 x 720 from (0, 0)]] 
+[2025-01-31 12:39:08.243][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] claimDailyActiveCommissionReward [uid_=300000003] [all_results_=[{"box":[300,34,98,58],"score":0.328801,"text":"n1"},{"box":[362,23,23,15],"score":0.260591,"text":"2EEEL"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=0ms] [param_.model=] [param_.only_rec=false] [param_.expected=["领取全部"]] 
+[2025-01-31 12:39:08.274][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/claimDailyActiveCommissionReward_300000003_2025.01.31-12.39.08.243.png 
+[2025-01-31 12:39:08.274][DBG][Px19160][Tx10125][OCRer.cpp][L57][MaaNS::VisionNS::OCRer::predict] Hit OCR cache [roi_=[1280 x 720 from (0, 0)]] 
+[2025-01-31 12:39:08.274][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] noCommissionRewardsToClaim [uid_=300000004] [all_results_=[{"box":[300,34,98,58],"score":0.328801,"text":"n1"},{"box":[362,23,23,15],"score":0.260591,"text":"2EEEL"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=0ms] [param_.model=] [param_.only_rec=false] [param_.expected=["^领取$","^领取全部$"]] 
+[2025-01-31 12:39:08.275][DBG][Px19160][Tx10125][Recognizer.cpp][L79][MaaNS::TaskNS::Recognizer::recognize] pipeline_data.inverse is true, reverse the result [pipeline_data.name=noCommissionRewardsToClaim] [result.box=nullopt] 
+[2025-01-31 12:39:08.308][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/noCommissionRewardsToClaim_300000004_2025.01.31-12.39.08.275.png 
+[2025-01-31 12:39:08.308][INF][Px19160][Tx10125][TaskBase.cpp][L129][MaaNS::TaskNS::TaskBase::run_recognition] node hit [result.name=noCommissionRewardsToClaim] [result.box=[0 x 0 from (0, 0)]] 
+[2025-01-31 12:39:08.308][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 189ms 
+[2025-01-31 12:39:08.308][DBG][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] [pipeline_data.name=noCommissionRewardsToClaim] | enter 
+[2025-01-31 12:39:08.308][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:08.509][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:08.509][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:08.710][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:08.710][TRC][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] | leave, 401ms 
+[2025-01-31 12:39:08.716][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=17088] 
+[2025-01-31 12:39:09.875][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2306326] [duration=1162ms] 
+[2025-01-31 12:39:09.908][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=noCommissionRewardsToClaim] [list=["exitCommissionPage"]] | enter 
+[2025-01-31 12:39:09.908][DBG][Px19160][Tx10125][TemplateResMgr.cpp][L44][MaaNS::ResourceNS::TemplateResMgr::load] [name=公用按钮组件/主页按钮_gray.png] [roots_=["D:/Software/MAA/mea/resource/image"]] | enter 
+[2025-01-31 12:39:09.908][DBG][Px19160][Tx10125][TemplateResMgr.cpp][L52][MaaNS::ResourceNS::TemplateResMgr::load] [path=D:/Software/MAA/mea/resource/image/公用按钮组件/主页按钮_gray.png] 
+[2025-01-31 12:39:09.908][TRC][Px19160][Tx10125][TemplateResMgr.cpp][L44][MaaNS::ResourceNS::TemplateResMgr::load] | leave, 0ms 
+[2025-01-31 12:39:09.908][DBG][Px19160][Tx10125][TemplateResMgr.cpp][L44][MaaNS::ResourceNS::TemplateResMgr::load] [name=公用按钮组件/主页按钮_black.png] [roots_=["D:/Software/MAA/mea/resource/image"]] | enter 
+[2025-01-31 12:39:09.908][DBG][Px19160][Tx10125][TemplateResMgr.cpp][L52][MaaNS::ResourceNS::TemplateResMgr::load] [path=D:/Software/MAA/mea/resource/image/公用按钮组件/主页按钮_black.png] 
+[2025-01-31 12:39:09.909][TRC][Px19160][Tx10125][TemplateResMgr.cpp][L44][MaaNS::ResourceNS::TemplateResMgr::load] | leave, 0ms 
+[2025-01-31 12:39:10.601][DBG][Px19160][Tx10125][TemplateMatcher.cpp][L51][MaaNS::VisionNS::TemplateMatcher::analyze] exitCommissionPage [uid_=300000005] [all_results_=[{"box":[109,18,33,31],"score":0.954423},{"box":[132,256,32,30],"score":0.515485},{"box":[166,426,33,31],"score":0.504634},{"box":[168,418,33,31],"score":0.531812},{"box":[179,317,32,30],"score":0.515663},{"box":[186,16,33,31],"score":0.610078},{"box":[203,598,33,31],"score":0.543521},{"box":[218,569,33,31],"score":0.540150},{"box":[228,553,33,31],"score":0.531070},{"box":[252,591,32,30],"score":0.550321},{"box":[301,515,32,30],"score":0.626747},{"box":[414,185,33,31],"score":0.536320},{"box":[481,581,33,31],"score":0.536624},{"box":[496,471,32,30],"score":0.600377},{"box":[586,129,32,30],"score":0.542626},{"box":[631,261,33,31],"score":0.581988},{"box":[644,557,33,31],"score":0.535118},{"box":[646,531,33,31],"score":0.528034},{"box":[749,259,33,31],"score":0.574281},{"box":[755,200,33,31],"score":0.567842},{"box":[762,394,33,31],"score":0.504202},{"box":[768,367,33,31],"score":0.525445}]] [filtered_results_=[{"box":[109,18,33,31],"score":0.954423}]] [best_result_={"box":[109,18,33,31],"score":0.954423}] [cost=692ms] [param_.template_paths=["公用按钮组件/主页按钮_gray.png","公用按钮组件/主页按钮_black.png"]] [param_.thresholds=[0.700000,0.700000]] [param_.method=5] [param_.green_mask=false] 
+[2025-01-31 12:39:10.630][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/exitCommissionPage_300000005_2025.01.31-12.39.10.601.png 
+[2025-01-31 12:39:10.661][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/exitCommissionPage_300000005_2025.01.31-12.39.10.630.png 
+[2025-01-31 12:39:10.662][INF][Px19160][Tx10125][TaskBase.cpp][L129][MaaNS::TaskNS::TaskBase::run_recognition] node hit [result.name=exitCommissionPage] [result.box=[33 x 31 from (109, 18)]] 
+[2025-01-31 12:39:10.662][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 753ms 
+[2025-01-31 12:39:10.662][DBG][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] [pipeline_data.name=exitCommissionPage] | enter 
+[2025-01-31 12:39:10.662][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:10.863][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:10.863][INF][Px19160][Tx7095][MtouchHelper.cpp][L95][MaaNS::CtrlUnitNs::MtouchHelper::click] [x=191] [y=56] [touch_x=191] [touch_y=56] 
+[2025-01-31 12:39:10.863][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 1500ms | enter 
+[2025-01-31 12:39:12.364][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 1500ms 
+[2025-01-31 12:39:12.364][TRC][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] | leave, 1701ms 
+[2025-01-31 12:39:12.370][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=7484] 
+[2025-01-31 12:39:13.378][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2660730] [duration=1012ms] 
+[2025-01-31 12:39:13.415][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=exitCommissionPage] [list=["enterPassToClaimTask","HomePage"]] | enter 
+[2025-01-31 12:39:13.703][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] enterPassToClaimTask [uid_=300000006] [all_results_=[{"box":[53,663,219,18],"score":0.983453,"text":"指挥官等级56i17/240"},{"box":[65,127,92,25],"score":0.999399,"text":"烟火迎春归"},{"box":[82,615,64,24],"score":0.492036,"text":"G"},{"box":[161,615,37,21],"score":0.776961,"text":"S"},{"box":[252,620,17,11],"score":0.256692,"text":"。"},{"box":[276,665,36,15],"score":0.749606,"text":"?"},{"box":[312,665,37,17],"score":0.999525,"text":"590"},{"box":[352,667,17,11],"score":0.858700,"text":"+"},{"box":[544,655,44,25],"score":0.999584,"text":"巡录"},{"box":[633,655,44,25],"score":0.999134,"text":"编队"},{"box":[724,655,45,25],"score":0.999046,"text":"活动"},{"box":[813,655,45,25],"score":0.986120,"text":"委托"},{"box":[902,655,46,25],"score":0.998909,"text":"班组"},{"box":[994,626,163,34],"score":0.864966,"text":"定向采购一"},{"box":[994,655,156,21],"score":0.869318,"text":"秋桦闪电寇尔芙获取概率"},{"box":[1005,67,216,50],"score":0.939378,"text":"战役推进"},{"box":[1082,173,31,20],"score":0.368290,"text":"QE"},{"box":[1102,170,111,28],"score":0.997908,"text":"限时开启"},{"box":[1130,243,84,33],"score":0.998820,"text":"整备室"},{"box":[1132,397,25,14],"score":0.992616,"text":"UP"},{"box":[1133,320,80,29],"score":0.995243,"text":"公共区"},{"box":[1134,124,40,9],"score":0.927105,"text":"//.ELMO"},{"box":[1148,393,64,30],"score":0.999324,"text":"招募"},{"box":[1148,664,20,5],"score":0.249912,"text":"计"},{"box":[1157,17,68,24],"score":0.981203,"text":"MCVELMO"},{"box":[1160,467,58,30],"score":0.997647,"text":"商城"},{"box":[1174,124,20,5],"score":0.093442,"text":"药"}]] [filtered_results_=[{"box":[544,655,44,25],"score":0.999584,"text":"巡录"}]] [best_result_={"box":[544,655,44,25],"score":0.999584,"text":"巡录"}] [cost=288ms] [param_.model=] [param_.only_rec=false] [param_.expected=["^巡录$"]] 
+[2025-01-31 12:39:13.735][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/enterPassToClaimTask_300000006_2025.01.31-12.39.13.703.png 
+[2025-01-31 12:39:13.736][INF][Px19160][Tx10125][TaskBase.cpp][L129][MaaNS::TaskNS::TaskBase::run_recognition] node hit [result.name=enterPassToClaimTask] [result.box=[44 x 25 from (544, 655)]] 
+[2025-01-31 12:39:13.736][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 320ms 
+[2025-01-31 12:39:13.736][DBG][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] [pipeline_data.name=enterPassToClaimTask] | enter 
+[2025-01-31 12:39:13.736][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:13.937][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:13.937][INF][Px19160][Tx7095][MtouchHelper.cpp][L95][MaaNS::CtrlUnitNs::MtouchHelper::click] [x=855] [y=1004] [touch_x=855] [touch_y=1004] 
+[2025-01-31 12:39:13.937][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 1000ms | enter 
+[2025-01-31 12:39:14.937][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 1000ms 
+[2025-01-31 12:39:14.937][TRC][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] | leave, 1201ms 
+[2025-01-31 12:39:14.944][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=14432] 
+[2025-01-31 12:39:15.792][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2337765] [duration=851ms] 
+[2025-01-31 12:39:15.824][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=enterPassToClaimTask] [list=["switchToDailyPassRewardPage"]] | enter 
+[2025-01-31 12:39:15.926][WRN][Px19160][Tx10125][OCRer.cpp][L96][MaaNS::VisionNS::OCRer::predict_det_and_rec] Wrong ocr_result size [ocr_result.boxes=[]] [ocr_result.text=[""]] [ocr_result.rec_scores=[0.000000]] 
+[2025-01-31 12:39:15.928][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] switchToDailyPassRewardPage [uid_=300000007] [all_results_=[]] [filtered_results_=[]] [best_result_=nullopt] [cost=103ms] [param_.model=] [param_.only_rec=false] [param_.expected=["^沿途行动$"]] 
+[2025-01-31 12:39:15.954][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/switchToDailyPassRewardPage_300000007_2025.01.31-12.39.15.928.png 
+[2025-01-31 12:39:15.954][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 130ms 
+[2025-01-31 12:39:15.954][DBG][Px19160][Tx10125][PipelineTask.cpp][L150][MaaNS::TaskNS::PipelineTask::run_reco_and_action] sleep_until [pretask.rate_limit=1000ms] 
+[2025-01-31 12:39:15.962][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=22924] 
+[2025-01-31 12:39:17.113][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2413196] [duration=1154ms] 
+[2025-01-31 12:39:17.149][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=enterPassToClaimTask] [list=["switchToDailyPassRewardPage"]] | enter 
+[2025-01-31 12:39:17.241][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] switchToDailyPassRewardPage [uid_=300000008] [all_results_=[{"box":[499,7,82,28],"score":0.997847,"text":"远航巡录"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=92ms] [param_.model=] [param_.only_rec=false] [param_.expected=["^沿途行动$"]] 
+[2025-01-31 12:39:17.271][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/switchToDailyPassRewardPage_300000008_2025.01.31-12.39.17.241.png 
+[2025-01-31 12:39:17.271][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 123ms 
+[2025-01-31 12:39:17.271][DBG][Px19160][Tx10125][PipelineTask.cpp][L150][MaaNS::TaskNS::PipelineTask::run_reco_and_action] sleep_until [pretask.rate_limit=1000ms] 
+[2025-01-31 12:39:17.278][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=9004] 
+[2025-01-31 12:39:18.094][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2022092] [duration=819ms] 
+[2025-01-31 12:39:18.126][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=enterPassToClaimTask] [list=["switchToDailyPassRewardPage"]] | enter 
+[2025-01-31 12:39:18.258][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] switchToDailyPassRewardPage [uid_=300000009] [all_results_=[{"box":[500,27,80,20],"score":0.998728,"text":"远航巡录"},{"box":[698,26,81,24],"score":0.994150,"text":"沿途行动"}]] [filtered_results_=[{"box":[698,26,81,24],"score":0.994150,"text":"沿途行动"}]] [best_result_={"box":[698,26,81,24],"score":0.994150,"text":"沿途行动"}] [cost=130ms] [param_.model=] [param_.only_rec=false] [param_.expected=["^沿途行动$"]] 
+[2025-01-31 12:39:18.285][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/switchToDailyPassRewardPage_300000009_2025.01.31-12.39.18.258.png 
+[2025-01-31 12:39:18.285][INF][Px19160][Tx10125][TaskBase.cpp][L129][MaaNS::TaskNS::TaskBase::run_recognition] node hit [result.name=switchToDailyPassRewardPage] [result.box=[81 x 24 from (698, 26)]] 
+[2025-01-31 12:39:18.285][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 158ms 
+[2025-01-31 12:39:18.285][DBG][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] [pipeline_data.name=switchToDailyPassRewardPage] | enter 
+[2025-01-31 12:39:18.285][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:18.487][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:18.487][INF][Px19160][Tx7095][MtouchHelper.cpp][L95][MaaNS::CtrlUnitNs::MtouchHelper::click] [x=1094] [y=59] [touch_x=1094] [touch_y=59] 
+[2025-01-31 12:39:18.487][DBG][Px19160][Tx10125][Actuator.cpp][L160][MaaNS::TaskNS::Actuator::wait_freezes] Wait freezes: [param.time=500ms] [param.rate_limit=1000ms] [param.timeout=20000ms] [param.threshold=0.95] [param.method=5] | enter 
+[2025-01-31 12:39:18.494][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=12048] 
+[2025-01-31 12:39:18.938][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=2019158] [duration=447ms] 
+[2025-01-31 12:39:18.971][DBG][Px19160][Tx10125][Actuator.cpp][L178][MaaNS::TaskNS::Actuator::wait_freezes] sleep_until [rate_limit=500ms] 
+[2025-01-31 12:39:18.995][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=20068] 
+[2025-01-31 12:39:19.662][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=1350629] [duration=670ms] 
+[2025-01-31 12:39:19.692][DBG][Px19160][Tx10125][TemplateComparator.cpp][L36][MaaNS::VisionNS::TemplateComparator::analyze]  [uid_=300000010] [all_results_=[{"box":[698,26,81,24],"score":0.944311}]] [filtered_results_=[]] [best_result_=nullopt] [cost=0ms] [param_.threshold=0.95] [param_.method=5] 
+[2025-01-31 12:39:19.692][DBG][Px19160][Tx10125][Actuator.cpp][L178][MaaNS::TaskNS::Actuator::wait_freezes] sleep_until [rate_limit=500ms] 
+[2025-01-31 12:39:19.699][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=12724] 
+[2025-01-31 12:39:20.311][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=1267368] [duration=615ms] 
+[2025-01-31 12:39:20.338][DBG][Px19160][Tx10125][TemplateComparator.cpp][L36][MaaNS::VisionNS::TemplateComparator::analyze]  [uid_=300000011] [all_results_=[{"box":[698,26,81,24],"score":1.000000}]] [filtered_results_=[{"box":[698,26,81,24],"score":1.000000}]] [best_result_={"box":[698,26,81,24],"score":1.000000}] [cost=0ms] [param_.threshold=0.95] [param_.method=5] 
+[2025-01-31 12:39:20.339][TRC][Px19160][Tx10125][Actuator.cpp][L160][MaaNS::TaskNS::Actuator::wait_freezes] | leave, 1851ms 
+[2025-01-31 12:39:20.339][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:20.540][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:20.540][TRC][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] | leave, 2254ms 
+[2025-01-31 12:39:20.547][DBG][Px19160][Tx7095][ChildPipeIOStream.cpp][L83][MaaNS::ChildPipeIOStream::ChildPipeIOStream] [exec_=D:/Software/MAA/maa/../../Emulator/Netease/MuMuPlayerGlobal-12.0/shell/adb.exe] [args_=["-s","127.0.0.1:16416","exec-out","screencap | gzip -1"]] [child_.id()=7964] 
+[2025-01-31 12:39:21.230][DBG][Px19160][Tx7095][UnitBase.cpp][L58][MaaNS::CtrlUnitNs::UnitBase::startup_and_read_pipe] [output.size()=1264394] [duration=686ms] 
+[2025-01-31 12:39:21.256][DBG][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] [cur_node_=switchToDailyPassRewardPage] [list=["claimDailyPassReward","switchToPassLevelRewardPage"]] | enter 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][MaaTasker.cpp][L128][MaaTaskerPostStop] [tasker=000002920BB8FDD0] | enter 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][Tasker.cpp][L113][MaaNS::Tasker::post_stop] | enter 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][ResourceMgr.cpp][L116][MaaNS::ResourceNS::ResourceMgr::post_stop] | enter 
+[2025-01-31 12:39:21.571][TRC][Px19160][Tx44854][ResourceMgr.cpp][L116][MaaNS::ResourceNS::ResourceMgr::post_stop] | leave, 0ms 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][ControllerAgent.cpp][L171][MaaNS::ControllerNS::ControllerAgent::post_stop] | enter 
+[2025-01-31 12:39:21.571][TRC][Px19160][Tx44854][ControllerAgent.cpp][L171][MaaNS::ControllerNS::ControllerAgent::post_stop] | leave, 0ms 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][Context.cpp][L22][MaaNS::TaskNS::Context::create] [id=100000002] [tasker=000002920BB8FDD0] 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][Context.cpp][L17][MaaNS::TaskNS::Context::Context] [id=100000002] [tasker=000002920BB8FDD0] 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] [getptr()=000002920F01C960] [pipeline_override={
+}] | enter 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | enter 
+[2025-01-31 12:39:21.571][DBG][Px19160][Tx44854][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | enter 
+[2025-01-31 12:39:21.572][TRC][Px19160][Tx44854][PipelineResMgr.cpp][L128][MaaNS::ResourceNS::PipelineResMgr::check_all_next_list] | leave, 0ms 
+[2025-01-31 12:39:21.572][DBG][Px19160][Tx44854][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | enter 
+[2025-01-31 12:39:21.572][TRC][Px19160][Tx44854][PipelineResMgr.cpp][L160][MaaNS::ResourceNS::PipelineResMgr::check_all_regex] | leave, 0ms 
+[2025-01-31 12:39:21.572][TRC][Px19160][Tx44854][PipelineResMgr.cpp][L118][MaaNS::ResourceNS::PipelineResMgr::check_all_validity] | leave, 0ms 
+[2025-01-31 12:39:21.572][TRC][Px19160][Tx44854][Context.cpp][L112][MaaNS::TaskNS::Context::override_pipeline] | leave, 0ms 
+[2025-01-31 12:39:21.572][TRC][Px19160][Tx44854][Tasker.cpp][L113][MaaNS::Tasker::post_stop] | leave, 1ms 
+[2025-01-31 12:39:21.572][TRC][Px19160][Tx44854][MaaTasker.cpp][L128][MaaTaskerPostStop] | leave, 1ms 
+[2025-01-31 12:39:21.667][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] claimDailyPassReward [uid_=300000012] [all_results_=[{"box":[58,99,184,26],"score":0.995938,"text":"已达等级上限Lv.60"},{"box":[104,207,98,29],"score":0.996627,"text":"每日行动"},{"box":[104,292,97,28],"score":0.993093,"text":"每周行动"},{"box":[393,240,39,26],"score":0.997544,"text":"0/2"},{"box":[393,358,39,25],"score":0.998356,"text":"0/1"},{"box":[394,479,36,21],"score":0.998535,"text":"0/1"},{"box":[486,219,214,27],"score":0.997819,"text":"环境调查：模拟作战"},{"box":[486,375,211,28],"score":0.995396,"text":"参与并获胜1次实兵演习"},{"box":[486,453,212,31],"score":0.998504,"text":"航行准备：每日要务"},{"box":[486,495,154,26],"score":0.997547,"text":"完成1次每日要务"},{"box":[488,260,190,23],"score":0.995063,"text":"在模拟作战中获胜2次"},{"box":[488,337,209,26],"score":0.997552,"text":"航行准备：实兵演习"},{"box":[488,574,210,22],"score":0.996142,"text":"航行准备：日活跃度"},{"box":[496,21,86,30],"score":0.997669,"text":"远航巡录"},{"box":[698,23,83,28],"score":0.997770,"text":"沿途行动"},{"box":[924,390,26,16],"score":0.999452,"text":"75"},{"box":[924,509,28,16],"score":0.999323,"text":"75"},{"box":[926,275,22,10],"score":0.994259,"text":"75"},{"box":[1077,477,45,25],"score":0.997457,"text":"前往"},{"box":[1078,240,46,26],"score":0.997791,"text":"前往"},{"box":[1078,357,46,26],"score":0.998226,"text":"前往"},{"box":[1141,25,41,21],"score":0.999615,"text":"590"},{"box":[1196,30,14,12],"score":0.864623,"text":"+"}]] [filtered_results_=[]] [best_result_=nullopt] [cost=410ms] [param_.model=] [param_.only_rec=false] [param_.expected=["^一键领取$","键领取$"]] 
+[2025-01-31 12:39:21.688][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/claimDailyPassReward_300000012_2025.01.31-12.39.21.667.png 
+[2025-01-31 12:39:21.768][DBG][Px19160][Tx10125][OCRer.cpp][L48][MaaNS::VisionNS::OCRer::analyze] switchToPassLevelRewardPage [uid_=300000013] [all_results_=[{"box":[500,27,80,20],"score":0.998608,"text":"远航巡录"},{"box":[697,26,81,24],"score":0.995746,"text":"沿途行动"}]] [filtered_results_=[{"box":[500,27,80,20],"score":0.998608,"text":"远航巡录"}]] [best_result_={"box":[500,27,80,20],"score":0.998608,"text":"远航巡录"}] [cost=79ms] [param_.model=] [param_.only_rec=false] [param_.expected=["^远航巡录$"]] 
+[2025-01-31 12:39:21.790][DBG][Px19160][Tx10125][Recognizer.cpp][L383][MaaNS::TaskNS::Recognizer::save_draws] save draw to D:/Software/MAA/mea/debug/vision/switchToPassLevelRewardPage_300000013_2025.01.31-12.39.21.768.png 
+[2025-01-31 12:39:21.790][INF][Px19160][Tx10125][TaskBase.cpp][L129][MaaNS::TaskNS::TaskBase::run_recognition] node hit [result.name=switchToPassLevelRewardPage] [result.box=[80 x 20 from (500, 27)]] 
+[2025-01-31 12:39:21.790][TRC][Px19160][Tx10125][TaskBase.cpp][L62][MaaNS::TaskNS::TaskBase::run_recognition] | leave, 533ms 
+[2025-01-31 12:39:21.790][DBG][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] [pipeline_data.name=switchToPassLevelRewardPage] | enter 
+[2025-01-31 12:39:21.790][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 200ms | enter 
+[2025-01-31 12:39:21.991][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 200ms 
+[2025-01-31 12:39:21.991][INF][Px19160][Tx7095][MtouchHelper.cpp][L95][MaaNS::CtrlUnitNs::MtouchHelper::click] [x=816] [y=53] [touch_x=816] [touch_y=53] 
+[2025-01-31 12:39:21.991][DBG][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] 1500ms | enter 
+[2025-01-31 12:39:23.492][TRC][Px19160][Tx10125][Actuator.cpp][L323][MaaNS::TaskNS::Actuator::sleep] | leave, 1501ms 
+[2025-01-31 12:39:23.492][TRC][Px19160][Tx10125][Actuator.cpp][L20][MaaNS::TaskNS::Actuator::run] | leave, 1701ms 
+[2025-01-31 12:39:23.492][WRN][Px19160][Tx10125][PipelineTask.cpp][L48][MaaNS::TaskNS::PipelineTask::run] need_to_stop [node.name=switchToDailyPassRewardPage] 
+[2025-01-31 12:39:23.492][TRC][Px19160][Tx10125][PipelineTask.cpp][L22][MaaNS::TaskNS::PipelineTask::run] | leave, 22450ms 
+[2025-01-31 12:39:23.492][INF][Px19160][Tx10125][Tasker.cpp][L256][MaaNS::Tasker::run_task] task end: [cb_detail={
+    "entry": "ClaimRewardTasks",
+    "hash": "b8d513e63a17be63",
+    "task_id": 100000001,
+    "uuid": "dafd6ffae6905847"
+}] [ret=true] 
+[2025-01-31 12:39:23.492][DBG][Px19160][Tx10125][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603FA4] [notify_trans_arg_=0000000000000000] [msg=Tasker.Task.Succeeded] [details={
+    "entry": "ClaimRewardTasks",
+    "hash": "b8d513e63a17be63",
+    "task_id": 100000001,
+    "uuid": "dafd6ffae6905847"
+}] | enter 
+[2025-01-31 12:39:23.492][TRC][Px19160][Tx10125][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:39:23.492][DBG][Px19160][Tx10125][Logger] ----------------------------- 
+[2025-01-31 12:39:23.492][DBG][Px19160][Tx10125][Logger] Flush log 
+[2025-01-31 12:39:23.492][DBG][Px19160][Tx10125][Logger] ----------------------------- 
+[2025-01-31 12:39:23.493][TRC][Px19160][Tx10125][Tasker.cpp][L221][MaaNS::Tasker::run_task] | leave, 22452ms 
+[2025-01-31 12:39:23.494][DBG][Px19160][Tx10125][Tasker.cpp][L221][MaaNS::Tasker::run_task] [runner_id=400000002] [task_ptr=0000029203E0D220] | enter 
+[2025-01-31 12:39:23.494][INF][Px19160][Tx10125][Tasker.cpp][L244][MaaNS::Tasker::run_task] task start: [cb_detail={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "b8d513e63a17be63",
+    "task_id": 100000002,
+    "uuid": "dafd6ffae6905847"
+}] 
+[2025-01-31 12:39:23.494][DBG][Px19160][Tx10125][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603FA4] [notify_trans_arg_=0000000000000000] [msg=Tasker.Task.Starting] [details={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "b8d513e63a17be63",
+    "task_id": 100000002,
+    "uuid": "dafd6ffae6905847"
+}] | enter 
+[2025-01-31 12:39:23.494][TRC][Px19160][Tx10125][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:39:23.494][INF][Px19160][Tx10125][Tasker.cpp][L256][MaaNS::Tasker::run_task] task end: [cb_detail={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "b8d513e63a17be63",
+    "task_id": 100000002,
+    "uuid": "dafd6ffae6905847"
+}] [ret=true] 
+[2025-01-31 12:39:23.494][DBG][Px19160][Tx10125][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] [notify_=00007FFD76603FA4] [notify_trans_arg_=0000000000000000] [msg=Tasker.Task.Succeeded] [details={
+    "entry": "MaaNS::Tasker::post_stop",
+    "hash": "b8d513e63a17be63",
+    "task_id": 100000002,
+    "uuid": "dafd6ffae6905847"
+}] | enter 
+[2025-01-31 12:39:23.494][TRC][Px19160][Tx10125][Utils/MessageNotifier.hpp][L19][MaaNS::MessageNotifier::notify] | leave, 0ms 
+[2025-01-31 12:39:23.494][DBG][Px19160][Tx10125][Logger] ----------------------------- 
+[2025-01-31 12:39:23.494][DBG][Px19160][Tx10125][Logger] Flush log 
+[2025-01-31 12:39:23.494][DBG][Px19160][Tx10125][Logger] ----------------------------- 
+[2025-01-31 12:39:23.494][TRC][Px19160][Tx10125][Tasker.cpp][L221][MaaNS::Tasker::run_task] | leave, 0ms 
+[2025-01-31 12:39:56.096][DBG][Px19160][Tx5006][Logger] ----------------------------- 
+[2025-01-31 12:39:56.096][DBG][Px19160][Tx5006][Logger] Close log 
+[2025-01-31 12:39:56.096][DBG][Px19160][Tx5006][Logger] ----------------------------- 
